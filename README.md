@@ -1,4 +1,3 @@
-
 # Proyecto Programacion2
 Proyecto de programación en lenguaje C# que sirve para registrar canciones y todas sus características
 ### *Autores: Nicolas Martinez Puchana y Jesús Andres Plata Contreras*
@@ -8,6 +7,7 @@ Proyecto de programación en lenguaje C# que sirve para registrar canciones y to
 
 _
 
+
 ## Tabla de Contenido.
 - [Lenguaje utilizado.](#lenguaje-utilizado)
 - [Como instalar el proyecto.](#como-instalar-el-proyecto)
@@ -16,11 +16,13 @@ _
 
 _
 
+
 ## Lenguaje Utilizado.
 Nuestro equipo de trabajo implemento lenguaje C# ya que es un lenguaje Multiplataforma, es de muy fácil aprendizaje y tiene mucha demanda laboral.
 Compilador: Visual Estudio
 
 _
+
 
 ## Como Instalar El Proyecto.
 
@@ -48,18 +50,54 @@ SIGUE LOS SIGUIENTES PASOS:
 
 ![Captura2](https://user-images.githubusercontent.com/62944457/82086489-31ae2f00-96b4-11ea-96d0-70f6376036c0.PNG)
 
+_
 
-## Funcionalidades del proyecto.
 
 ## Herramientas utilizadas.
 
 Utilizamos la siguientes herramientas:
 
 - Windows Forms: Se utiliza para crear todas las ventanas del programa.
-- Dlls: Se utiliza para mostrar la gráfica.
+- Dlls: Se utiliza para mostrar la gráfica y poder calcular la raíz cuadrada de un numero.
 - Clases.
 - Control de Usuario.
 - Charts: Se utiliza para crear la gráfica.
 - Estructura orientada a objetos.
 - Herencia: Se utiliza para crear la función de ayuda.
 - ResXFileCodeGenerator: Se utiliza para cambiar el idioma.
+
+_
+
+
+## Funcionalidades del proyecto.
+
+*Entre de sus funciones encontramos:*
+
+* *Registrar Datos de La canción.*
+
+En esta función podemos ingresar los datos de cualquier canción, al dar en el botón agregar
+
+![gift agregar datos](https://user-images.githubusercontent.com/62944457/82090854-f44d9f80-96bb-11ea-9804-37f609a7c3ad.gif)
+
+ : *Nota: Al digitar en duración se debe colocar la parte de minutos sin los segundo ya que la idea es ver el tiempo de minutos de cada canción, a futuro pensamos implementarlo a un álbum.*
+
+
++ *Actualizar Datos.*
+
+Tenemos otra función donde podemos actualizar los datos ya digitados anteriormente, podemos cambiar cada uno de los datos y al dar actualizar ver el cambio y como se guarda la información.
+
+![gift actualizar datos](https://user-images.githubusercontent.com/62944457/82092402-dc2b4f80-96be-11ea-9eb4-6e9cb5fea1de.gif)
+
+* *Hallar la Raíz Cuadrada de un Numero y Cambiar el Color.*
+
+En la parte de abajo del programa encontramos un apartado llamado *Hallar Raíz* donde podemos colocar un numero cualquiera y al dar clic en el botón calcular el mismo te dará el resultado.
+
+Mas de eso hay un botón en la parte de la esquina baja derecha llamado *color*, este botón cambia el color de todo el programa volviéndolo personalizable a tu gusto.
+
+![gif cambiar color y raiz](https://user-images.githubusercontent.com/62944457/82093127-27922d80-96c0-11ea-9cdc-01b8d690d08f.gif)
+
+* *Cambiar el Idioma.*
+
+Por ultimo tenemos un desplegable llamado *Seleccione Idioma* donde te aparecerán 3 opciones de idiomas: Español, Ingles y Francés.
+
+![gif cambiar idioma](https://user-images.githubusercontent.com/62944457/82094053-edc22680-96c1-11ea-9e03-56f5a3229aa3.gif)
